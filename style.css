@@ -115,7 +115,7 @@ li:hover {
 .img-content-text {
     width: 20vw;
     height: 40vh;
-    background-image: url("imgs/mor.png");
+    background-image: url("../17-08/imgs/mor.png");
     background-size: cover;
     background-position: bottom;
     margin: 2rem auto;
