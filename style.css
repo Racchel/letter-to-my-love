@@ -112,10 +112,12 @@ li:hover {
     margin-bottom: 3rem;
 }
 
+/*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*/
+
 .img-content-text {
     width: 20vw;
     height: 40vh;
-    background-image: url("../17-08/imgs/mor.png");
+    background-image: url("imgs/mor.png");
     background-size: cover;
     background-position: bottom;
     margin: 2rem auto;
