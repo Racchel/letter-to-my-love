@@ -115,7 +115,7 @@ li:hover {
 .img-content-text {
     width: 20vw;
     height: 40vh;
-    background-image: url("/imgs/mor.png");
+    background-image: url("imgs/mor.png");
     background-size: cover;
     background-position: bottom;
     margin: 2rem auto;
@@ -131,22 +131,22 @@ li:hover {
 
 #img-17-08{
     height: 280vh;
-    background-image: url("/imgs/start-17-08.jpg");
+    background-image: url("imgs/start-17-08.jpg");
 }
     
 #img-17-09{
     height: 40vh;
-    background-image: url("/imgs/Captura de tela de 2021-11-01 11-07-32.png");
+    background-image: url("imgs/Captura de tela de 2021-11-01 11-07-32.png");
 }
 
 #img-17-09-two {
     height: 100vh;
-    background-image: url("/imgs/codigo-aberto.png");
+    background-image: url("imgs/codigo-aberto.png");
 }
 
 #img-melhor-conversa {
     height: 200vh;
-    background-image: url("/imgs/melhor-conversa.jpg");
+    background-image: url("imgs/melhor-conversa.jpg");
     background-position: center;
 }
 
