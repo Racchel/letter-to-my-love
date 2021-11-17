@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-color: rgb(181, 8, 187);
+    --secondary-color: #ddd;
+    --tertiary-color: rgb(231, 228, 228);
+}
+
+/* tags */
+
+header, footer {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+header {
+    padding: 20rem;
+}
+
+footer {
+    padding: 3rem;
+}
+
+main {
+    width: 100vw;
+    margin: 2rem 0;
+
+}
+
+main section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+h4 {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+ul {
+    margin: 1rem 0 1rem 1.7rem;
+}
+
+li {
+    width: 100%;
+    list-style: '💜  ';
+    line-height: 2rem;
+}
+
+li:hover {
+    background-color:  var(--main-color);
+    color: #fff;
+    transition: 0.2s;
+}
+
+/* class */
+
+.content-title {
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+}
+
+.content-info {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2rem auto;
+}
+
+.content-text{
+    margin-bottom: 2rem;
+    background-color: var(--tertiary-color);
+
+}
+
+.content-text h2{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.img {
+    width: 20vw;
+    height: 40vh;
+    background-image: url("mor.png");
+    background-size: cover;
+    background-position: bottom;
+    margin: 2rem auto;
+    border-radius: 2rem;
+}
+
+.img:hover {
+    border-radius: 50%;
+    transition: .3s;
+}
