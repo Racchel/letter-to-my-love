@@ -114,7 +114,16 @@ li:hover {
 
 /*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*/
 
-.img-content-text {
+.legend-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    margin-top: -1rem;
+    font-style: italic;
+}
+
+.img-content-text{
     width: 20vw;
     height: 40vh;
     background-image: url("imgs/mor.png");
